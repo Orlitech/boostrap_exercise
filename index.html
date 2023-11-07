@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boostrap webpage</title>
+    <link href="assets/img/logo.png" rel="icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+
+        .icon-square {
+            width: 3rem;
+            height: 3rem;
+            border-radius: 0.75rem;
+        }
+
+        .card{
+            display: inline-flex;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <!--Navigation Bar  -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo" height="30"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Software Development</a></li>
+                  <li><a class="dropdown-item" href="#">Data Analysis</a></li>
+                  <li><a class="dropdown-item" href="#">Graphics</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Others</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--top why choose us  -->
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="assets/img/top.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Why Orlitech for your company website?</h1>
+          <p class="lead">We are dedicated, devoted and aim at boosting the business growth of our Clients with Advance Website Design, E-Commerce Website, Shopping Cart portal, SEO Service, 
+             Software Development Services to deliver market defining high quality IT services that build value and unchanging proficient advantage for you round the Globe.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="tel:+2347066142299"> <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Call us</button></a>
+            <a href="mailto:oyefabibenjamin.olamide@gmail.com"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Mail us</button></a>
+          </div>
+        </div>
+      </div>
+
+        <!-- Slider-->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/b60ad49db4d1227ade1d2eaf4bf92d9f.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/R.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/418304.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      
+        <!-- Services-->
+
+        <div class="container px-4 py-5" id="hanging-icons">
+            <h2 class="pb-2 border-bottom">Our Services</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                  <img src="assets/img/logo.svg" alt="code icon" height="30"/>
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Software Development</h3>
+                  <p>We Develop Responsive websites (frontend & backend) and Mobile App Developement for individual, companies, schools and other firms</p>
+                  <a href="tel:+2347066142299" class="btn btn-primary">
+                    Contact Us
+                  </a>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                  <img src="assets/img/graph-up.svg" alt="graph icon" height="30"/>
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Data Analysis</h3>
+                  <p>We are professional Data Analyst. we are proficient in Excel, Sql, python, R for data Analysis and powerBI for data visualization</p>
+                  <a href="tel:+2347066142299" class="btn btn-primary">
+                    Contact Us
+                  </a>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                  <img src="assets/img/palette-fill.svg" alt="palette-fill"  height="30"/>
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Design</h3>
+                  <p> UX/UI, flyers, poster, handbill, Invitation Cards, Logo, Complementary Card, Receipt, Invoice and lot more...for different business and occasion</p>
+                  <a href="tel:+2347066142299" class="btn btn-primary">
+                    Contact Us<a/>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-body-secondary">© 2023 orlitech</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a class="text-body-secondary" href="facebook/orlitech.com"><img src="assets/img/facebook.svg" alt=""/></a></li>
+              <li class="ms-3"><a class="text-body-secondary" href="pinterest/orlitech.com"><img src="assets/img/pinterest.svg"/></li>
+              <li class="ms-3"><a class="text-body-secondary" href="whatsapp://send?phone=+2347066142299"><img src="assets/img/whatsapp.svg"/></a></li>
+            </ul>
+          </footer>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
